@@ -1,0 +1,1156 @@
+* {
+  box-sizing: border-box;
+}
+
+.buttonradius12 {
+  border-radius: 12px !important;
+}
+
+.buttonradius20 {
+  border-radius: 20px !important;
+}
+
+.buttonradius16 {
+  border-radius: 16px !important;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap'); */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+/* akun */
+.cardAkunSaya {
+	box-shadow: none;
+	border: none;
+	width: 100%;
+}
+
+.foto3 {
+	width: 100%;
+	height: 100%;
+}
+
+.Iconn {
+	display: none;
+}
+
+.iconn:hover {
+	color: #4b1979;
+}
+
+.titleAkun {
+	text-align: center;
+}
+
+.akunsayacard {
+	text-align: center;
+}
+
+.akunSayaMenu {
+	color: #000;
+	font-size: large;
+	text-decoration: none;
+}
+
+.akunSayaMenu:hover {
+	color: #4b1979;
+}
+
+.upfoto {
+	position: relative;
+	left: 120%;
+}
+
+.upfotoo {
+	position: relative;
+	left: 1%;
+}
+
+.btn-masuk {
+	background: #7126b5;
+	right: 0px;
+	position: absolute;
+	border-radius: 16px;
+	border: none;
+}
+
+.nav-top {
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+}
+
+.nav-search {
+	background: #eeeeee;
+	border: none;
+	font-size: 14px;
+	padding: 14px;
+	border-radius: 32px;
+}
+
+.right-inner-addon {
+	position: absolute;
+	right: 0px;
+	pointer-events: none;
+	margin-top: 17px;
+	margin-right: 14px;
+	color: #8a8a8a;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #4b1979;
+	border-color: #4b1979; /*set the color you want here*/
+}
+
+.btn-secondary {
+	border: none;
+	background: #e2d4f0;
+	border-radius: 16px;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+	color: #3c3c3c;
+	background-color: #ac83d1;
+	border-color: #ac83d1; /*set the color you want here*/
+}
+
+
+.btn-jual {
+	bottom: 0px;
+}
+
+.card-noHover {
+	width: 250px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 16px;
+	border: none;
+	text-decoration: none;
+	color: black;
+}
+
+.card {
+	width: 90%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 16px;
+	border: none;
+	text-decoration: none;
+	color: black;
+}
+
+#card:hover {
+	box-shadow: 0px 0px 4px rgba(128, 0, 128, 0.8);
+	color: black;
+}
+
+.card-text {
+	color: #8a8a8a;
+}
+
+.Cardhaha {
+	font-size: smaller;
+	color: #9b9b9b;
+}
+
+.img-product {
+	max-height: 80%;
+	max-width: 80%;
+	width: 80%;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+.carousel-inner img {
+	margin: auto;
+}
+
+.category-list {
+	width: 769px;
+}
+
+/* Category */
+.btn-primary-purple {
+	color: #fff;
+	background-color: #7126b5;
+	border-color: #7126b5;
+	border-radius: 16px;
+}
+
+.btn-primary-category:hover,
+.btn-primary-category:focus,
+.btn-primary-category:active,
+.btn-primary-category.active,
+.open > .dropdown-toggle.btn-primary-category {
+	color: #fff;
+	background-color: #4b1979;
+	border-color: #4b1979; /*set the color you want here*/
+}
+
+/* Login dan Sign Up */
+
+#secondHand {
+	position: absolute;
+	top: 40%;
+	left: 3%;
+	z-index: 1;
+}
+
+#imgRegister {
+	width: 580px;
+	/* height: 569px; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+
+.loginText {
+	position: relative;
+	top: 50%;
+	right: 4%;
+}
+
+.signUpText {
+	position: relative;
+	top: 14%;
+	right: 4%;
+}
+
+.txtRegister {
+	text-align: center;
+}
+
+/* COMPONENT : NavbarPlain*/
+
+.navbarPlainTitle {
+	text-align: center;
+	position: relative;
+	right: 43%;
+}
+
+.inputLarge {
+	height: 80px;
+}
+
+.iconArrowLeft {
+	position: absolute;
+	left: 15%;
+	color: black;
+}
+
+.iconArrowLeft:hover {
+	color: #7126b5;
+}
+
+.iconArrowLeftNav {
+	display: none;
+}
+
+/* navbar notif */
+
+.icon-navbar {
+	color: #7126b5;
+}
+
+.dropdown-toggle img {
+	color: #7126b5;
+}
+
+.icon-navbar:hover {
+	color: #a06ece;
+}
+
+.navbar-notif {
+	/* border: 1px solid black; */
+	max-height: 100%;
+	width: 400px;
+	padding: 20px 10px;
+	text: center;
+}
+
+
+/* COMPONENTS : BUTTON */
+
+/* Button Large */
+
+.btnPurpleLg {
+	width: 100%;
+	background-color: #7126b5;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+.btnPurpleLg:hover {
+	background-color: #a06ece;
+	border-color: #a06ece;
+	color: #fff;
+}
+
+.btnPurpleLg:active:focus {
+	background-color: #4b1979;
+	border-color: #4b1979;
+	color: #fff;
+}
+
+.btnSecondaryLg {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #7126b5;
+	margin-left: 1%;
+}
+
+.btnSecondaryLg:hover {
+	background-color: #a06ece;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+.btnSecondaryLg:active:focus {
+	background-color: #7126b5;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+/* Button Medium */
+
+.btnPurpleMd {
+	width: 49%;
+	background-color: #7126b5;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #fff;
+	margin-left: 1%;
+}
+
+.btnPurpleMd:hover {
+	background-color: #a06ece;
+	border-color: #a06ece;
+	color: #fff;
+}
+
+.btnPurpleMd:active:focus {
+	background-color: #4b1979;
+	border-color: #4b1979;
+	color: #fff;
+}
+
+.btnSecondaryMd {
+	width: 49%;
+	background-color: #fff;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #7126b5;
+	margin-left: 1%;
+}
+
+.btnSecondaryMd:hover {
+	background-color: #a06ece;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+.btnSecondaryMd:active:focus {
+	background-color: #7126b5;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+/* Button Small */
+
+.btnPurpleSm {
+	width: 24%;
+	background-color: #7126b5;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #fff;
+	margin-left: 1%;
+}
+
+.btnPurpleSm:hover {
+	background-color: #a06ece;
+	border-color: #a06ece;
+	color: #fff;
+}
+
+.btnPurpleSm:active:focus {
+	background-color: #4b1979;
+	border-color: #4b1979;
+	color: #fff;
+}
+
+.btnSecondarySm {
+	width: 70px;
+	background-color: #fff;
+	border-radius: 16px;
+	border-color: #7126b5;
+	color: #7126b5;
+	margin-left: 1%;
+}
+
+.btnSecondarySm:hover {
+	background-color: #a06ece;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+.btnSecondarySm:active:focus {
+	background-color: #7126b5;
+	border-color: #7126b5;
+	color: #fff;
+}
+
+/* Link as Button */
+.btnLinkPurp {
+	color: #7126b5;
+	text-decoration: none;
+}
+
+.btnLinkPurp:hover {
+	color: #a06ece;
+}
+
+.btnLinkPurp:active:focus {
+	color: #4b1979;
+}
+
+/* Form */
+.formRounded {
+	border-radius: 16px;
+}
+
+/* Card Penawar */
+.card-penawar {
+	width: 100%;
+}
+
+.img-penawar {
+	width: 48px;
+	height: 48px;
+}
+
+.city-penawar {
+	font-size: 11px;
+}
+
+/* Card Tawaran */
+.img-tawaran {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	width: 48px;
+	height: 48px;
+	border-radius: 16px;
+}
+
+.jam-card-tawaran {
+	font-size: 12px;
+	color: grey;
+}
+
+.text-card-tawaran {
+	font-size: 16px;
+	margin-top: 3px;
+}
+
+.title-card-tawaran {
+	font-size: 12px;
+	color: grey;
+}
+
+/* Daftar Product */
+
+.offcanvas-end {
+	width: 45%;
+}
+
+.Text1 {
+	display: none;
+}
+
+.Icon {
+	width: 24;
+	height: 24;
+	color: #151515;
+	display: flex;
+}
+
+.text2 {
+	position: relative;
+	/* left: 10%; */
+	margin-top: 0%;
+	text-align: center;
+}
+
+.carddaftar {
+	width: 100%;
+	height: 10%;
+	/* position: relative; */
+	/* left: 10%; */
+	margin-top: 2%;
+	border-radius: 16px;
+	box-shadow: 0 1px 5px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.text3 {
+	line-height: 70%;
+	padding-top: 5%;
+	position: relative;
+	right: 78%;
+}
+
+.button1 {
+	position: relative;
+	left: 20%;
+}
+
+.btnDaftarProductmobile {
+	padding: 12px 16px;
+	gap: 2px;
+	width: 100px;
+	background-color: #4b1979;
+	color: white;
+	height: 44px;
+	margin-left: 3%;
+}
+
+.productnavbar {
+	position: relative;
+	left: 35%;
+}
+
+.productdaftar {
+	display: none;
+}
+
+.cardMenuPenjual {
+	width: 100%;
+	height: 14em;
+	/* align-items: left; */
+	border-radius: 16px;
+	box-shadow: 0 1px 5px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+	/* position: relative; */
+	/* left: 46%; */
+	top: 2em;
+}
+
+.kontenCardMenuPenjual {
+	padding-top: 7%;
+	padding-left: 7%;
+	padding-bottom: 3%;
+	padding-right: 7%;
+}
+
+.icon2 {
+	color: #151515;
+}
+
+.icon2:link {
+	text-decoration: none;
+	color: #696868;
+}
+
+.icon2:visited {
+	text-decoration: none;
+	color: #696868;
+}
+
+.icon2:hover {
+	text-decoration: none;
+	color: #a06ece;
+}
+
+.icon2:active {
+	text-decoration: none;
+	color: #2d0255;
+}
+
+.jam {
+	/* width: 100%; */
+	/* position: relative; */
+	/* left: 10%; */
+	padding-top: 3%;
+}
+
+
+.Minat {
+	text-align: center;
+}
+
+.textalt {
+	width: 20%;
+	height: 20px;
+	flex: none;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.alert1 {
+	position: absolute;
+	width: 500px;
+	height: 52px;
+	left: 470px;
+	top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px 24px;
+	border-radius: 12px;
+}
+
+.bottom {
+	display: none;
+}
+
+.radioButton {
+	accent-color: #4b1979;
+}
+
+.textShadowBox {
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 16px;
+}
+
+/* For Smaller Device */
+
+@media screen and (max-width: 767px) {
+	.foto3 {
+		width: 100%;
+		height: 100%;
+	}
+
+	.Iconn {
+		display: flex;
+		width: 30;
+		height: 24;
+		color: #7126b5;
+		text-align: center;
+	}
+
+	.iconn:hover {
+		color: #4b1979;
+	}
+
+	.bottom {
+		top: 100%;
+		display: flex;
+	}
+
+	.akunsayanav {
+		display: none;
+	}
+
+	.titleAkun {
+		text-align: center;
+	}
+
+	.akunSayaMenu {
+		color: #000;
+		font-size: large;
+		text-decoration: none;
+	}
+
+	.akunSayaMenu:hover {
+		color: #4b1979;
+	}
+
+	.cardAkunSaya {
+		box-shadow: none;
+		width: 100%;
+	}
+
+	.akunsaya {
+		padding-left: 2%;
+		padding-right: 2%;
+		width: 100%;
+	}
+
+	.akunSayaMenu {
+		color: #000;
+		font-size: large;
+		text-decoration: none;
+	}
+
+	.akunSayaMenu:hover {
+		color: #4b1979;
+	}
+
+	/* Login dan Sign Up */
+
+	#imgRegister {
+		display: none;
+	}
+
+	#secondHand {
+		display: none;
+	}
+
+	.loginText {
+		position: relative;
+		right: 0%;
+	}
+
+	.signUpText {
+		position: relative;
+		right: 0%;
+	}
+
+	/* NavbarPlain */
+
+	#logoNavbar {
+		display: none;
+	}
+
+	.navbarPlainTitle {
+		text-align: center;
+		position: relative;
+		right: 35%;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+
+	.iconArrowLeft {
+		display: none;
+	}
+
+	.iconArrowLeftNav {
+		display: inline;
+		position: relative;
+		left: 4%;
+	}
+
+	/* Daftar Product */
+
+	.offcanvas.offcanvas-end {
+		width: 40%;
+	}
+
+	.productnavbar {
+		position: relative;
+		left: 3%;
+	}
+
+	.Text1 {
+		left: 3%;
+		display: block;
+		color: #4b1979;
+	}
+
+	.Icon {
+		display: none;
+	}
+
+	.text2 {
+		position: relative;
+		left: 2%;
+		margin-top: 0%;
+		text-align: center;
+	}
+
+
+	.cardproduct {
+		/* text-align: left; */
+	}
+
+	.text3 {
+		line-height: 50%;
+		padding-top: 5%;
+		position: relative;
+		right: 40%;
+	}
+
+	.button1 {
+		position: relative;
+		left: 0%;
+	}
+
+	.BtnSecondarySm {
+		width: 100%;
+	}
+
+	.productdaftar {
+		display: inline;
+		position: relative;
+		top: 30%;
+		left: 3%;
+	}
+
+	.jam {
+		width: 100%;
+		position: relative;
+		left: 0%;
+		padding-top: 10%;
+	}
+
+	.textalt {
+		width: 20%;
+	}
+
+	/* .alert1{
+	bottom: 10%;
+	left: 35%;
+	width: 50%;
+	height: 52px;
+	display: flex;
+	flex-direction: row;
+	padding: 16px 16px;
+	border-radius: 12px;
+
+} */
+	.upfoto {
+		bottom: 10%;
+		position: relative;
+		left: 70%;
+	}
+
+	/* 
+.Iconn {
+	width: 24;
+		height :24;
+		viewBox : 0 0 24 24;
+	color: #151515;
+  }
+  .kontenNavbarBottom{
+	display: flex;
+  }
+  .NavbarBawah{
+	display: flex;
+  } */
+	.formInfoProduk {
+		position: relative;
+		left: 0%;
+	}
+
+	.productdaftar {
+		display: inline;
+		position: relative;
+		top: 30%;
+		left: 1%;
+	}
+	.navbarPlainTitle {
+		text-align: center;
+		position: absolute;
+		right: 35%;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+}
+
+/* For Medium Device */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	/* Login dan Sign Up */
+
+	#imgRegister {
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+
+	#secondHand {
+		position: absolute;
+		top: 35%;
+		left: 3%;
+		z-index: 1;
+	}
+
+	.loginText {
+		position: relative;
+		right: 1%;
+	}
+
+	.signUpText {
+		position: relative;
+		right: 0%;
+	}
+
+	/* NavbarPlain */
+
+	#logoNavbar {
+		display: none;
+	}
+
+	.navbarPlainTitle {
+		text-align: center;
+		position: relative;
+		right: 38%;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+
+	.iconArrowLeft {
+		display: none;
+	}
+
+	.iconArrowLeftNav {
+		display: inline;
+		position: relative;
+		left: 2%;
+	}
+	/* Daftar Product */
+
+	.navbarproduct {
+		position: relative;
+		left: 6%;
+	}
+
+	.text2 {
+		position: relative;
+		left: 10%;
+		text-align: center;
+	}
+
+	.text3 {
+		line-height: 100%;
+		position: relative;
+		right: 58%;
+		bottom: 1%;
+	}
+
+	.btn1 {
+		position: relative;
+		left: 8%;
+		padding-right: 0%;
+	}
+
+	.productdaftar {
+		display: inline;
+		position: relative;
+		top: 30%;
+		left: 1%;
+	}
+
+	.BtnSecondarySm {
+		width: 40%;
+	}
+
+	.productnavbar {
+		position: relative;
+		left: 3%;
+	}
+
+	.offcanvas.offcanvas-end {
+		width: 30%;
+	}
+
+
+	.Text1 {
+		padding: auto;
+		left: 3%;
+		display: block;
+		color: #4b1979;
+	}
+
+	.Icon {
+		display: none;
+	}
+
+	.productdaftar {
+		display: inline;
+		position: relative;
+		left: 80%;
+		top: 30%;
+		left: 8%;
+	}
+
+
+	.jam {
+		width: 100%;
+		position: relative;
+		left: 0%;
+		padding-top: 6%;
+	}
+
+	.txtCard {
+		width: auto;
+		line-height: 80%;
+		border-radius: 8px;
+		height: 120%;
+		padding-bottom: 7%;
+	}
+
+	.textalt {
+		width: 10%;
+	}
+	/* .alert1{
+	left: 40%;
+	width: 40%;
+	height: 52px;
+	display: flex;
+	flex-direction: row;
+	padding: 16px 16px;
+	border-radius: 12px;
+
+} */
+	.formInfoProduk {
+		position: relative;
+		left: 50%;
+	}
+
+	.cardAkunSaya {
+		box-shadow: none;
+		width: 100%;
+	}
+
+	.upfoto {
+		position: relative;
+		left: 180%;
+	}
+
+	.formInfoProduk {
+		position: relative;
+		left: 50%;
+	}
+
+	.foto3 {
+		max-width: 100%;
+		max-height: 100%;
+		width: 100%;
+		height: 100%;
+	}
+
+	.Iconn {
+		display: none;
+	}
+
+	.bottom {
+		display: none;
+	}
+}
+
+.borderradius8 {
+  border-radius: 8px !important;
+}
+
+/* button filter-landingpage */
+.btn-custom {
+  color: #3c3c3c;
+  background-color: #e2d4f0;
+  border-color: #e2d4f0;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+  color: #ffffff;
+  background-color: #7126b5;
+  border-color: #7126b5;
+}
+
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+  background-image: none;
+}
+
+.btn-custom.disabled,
+.btn-custom[disabled],
+fieldset[disabled] .btn-custom,
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled:active,
+.btn-custom[disabled]:active,
+fieldset[disabled] .btn-custom:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom.active {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #b7a1cd;
+  border-color: #b4b4b4;
+}
+
+.btn-custom .badge {
+  color: #3c3c3c;
+  background-color: #ffffff;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding: 5px;
+}
+.infoPenjual {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+}
+
+.imageSmall {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.btnPrimary {
+  background-color: #7126b5;
+  color: white;
+  border: 1px solid #7126b5;
+  border-radius: 16px;
+}
+
+.btnPrimary:hover {
+  background-color: #591e91;
+  color: white;
+  border: 1px solid #591e91;
+}
+
+.btnOutline {
+  border: 1px solid #7126b5;
+  color: black;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.btnOutline:hover {
+  background-color: #7126b5;
+  color: white;
+  border: 1px solid #7126b5;
+}
+
+.modalProduk {
+  background: #dddddd;
+  border-radius: 16px;
+  padding: 15px;
+}
+
+.modalPenawaran {
+  background: #eeeeee;
+  border-radius: 16px;
+  padding: 15px;
+  width: 420px;
+}
+
+.notifToast {
+  background: #73ca5c;
+  border-radius: 12px;
+  color: white;
+}
